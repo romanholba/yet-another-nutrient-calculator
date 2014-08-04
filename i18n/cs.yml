@@ -2,9 +2,9 @@ units:
   element: Prvek
   ppm: ppm
   degree: množství
-  us_gal: US gal
+  us_gal: Galony
   imp_gal: Imp gal
-  Liter: L
+  Liter: Litry
   milliliter: ml
   five_milliliter: tsp/caps
   pump_bottle: zmáčknutí
@@ -13,7 +13,7 @@ units:
 input:
   aquarium: Moje nádrž je
   source:
-    text: použití
+    text: Použití
     diy: DIY
     commercial: komerční směs
     label: hnojiva
@@ -40,7 +40,7 @@ input:
     text: Přidám
     tooltip: můžete použít čísla<br/>"1/8", "1.25", "2,50", "3"
   target: Můj cíl je
-  round_to: Na kolik desetinných míst zaokrouhlit
+  round_to: Round to digits past the decimal
 output:
   dose: Vaše přidání %1 do Vaší %2 nádrže dodá
   dose_solution: Vaše přidání %1 do Vaší %2 dávkovací nádoby, s dávkami %3 do Vaší %4 nádrže přidá
